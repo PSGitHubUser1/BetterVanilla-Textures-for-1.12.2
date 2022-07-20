@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "indianmoneymod:fifty_rupee_note"
+    },
+    "title": {
+      "translate": "advancements.got_fifty.title"
+    },
+    "description": {
+      "translate": "advancements.got_fifty.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_fifty": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "indianmoneymod:fifty_rupee_note"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:story/mine_stone"
+}

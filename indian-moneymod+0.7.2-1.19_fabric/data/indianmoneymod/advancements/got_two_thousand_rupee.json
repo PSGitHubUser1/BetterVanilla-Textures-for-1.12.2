@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "indianmoneymod:two_thousand_rupee_note"
+    },
+    "title": {
+      "translate": "advancements.got_two_thousand_rupee.title"
+    },
+    "description": {
+      "translate": "advancements.got_two_thousand_rupee.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "got_two_thousand_rupee": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "indianmoneymod:two_thousand_rupee_note"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:story/upgrade_tools"
+}

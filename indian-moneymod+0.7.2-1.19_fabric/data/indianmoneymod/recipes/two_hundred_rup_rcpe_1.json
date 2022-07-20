@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "indianmoneymod:fifty_rupee_note"
+    },
+    {
+      "item": "indianmoneymod:fifty_rupee_note"
+    },
+    {
+      "item": "indianmoneymod:fifty_rupee_note"
+    },
+    {
+      "item": "indianmoneymod:fifty_rupee_note"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "indianmoneymod:two_hundred_rupee_note",
+    "count": 1
+  }
+}

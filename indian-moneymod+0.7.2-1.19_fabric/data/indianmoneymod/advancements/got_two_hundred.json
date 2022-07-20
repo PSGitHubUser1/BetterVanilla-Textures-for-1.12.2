@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "indianmoneymod:two_hundred_rupee_note"
+    },
+    "title": {
+      "translate": "advancements.got_two_hundred.title"
+    },
+    "description": {
+      "translate": "advancements.got_two_hundred.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_two_hundred": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "indianmoneymod:two_hundred_rupee_note"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "minecraft:story/mine_stone"
+}

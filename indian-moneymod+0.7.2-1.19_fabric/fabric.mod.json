@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "indianmoneymod",
+  "version": "0.7.2",
+  "name": "Indian Money Mod",
+  "authors": [
+    "InfoyPS aka PMUser"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/channel/UC1GDYoxUpzdpGxr8ct0iDBQ",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.indianmoneymod.IndianmoneymodMod"
+    ],
+    "client": [
+      "net.mcreator.indianmoneymod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.1",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "accessWidener": "modid.accesswidener"
+}

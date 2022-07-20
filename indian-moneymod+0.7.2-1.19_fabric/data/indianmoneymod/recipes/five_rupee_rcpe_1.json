@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "indianmoneymod:one_rupee_coin"
+    },
+    {
+      "item": "indianmoneymod:two_rupee_coin"
+    },
+    {
+      "item": "indianmoneymod:two_rupee_coin"
+    }
+  ],
+  "result": {
+    "item": "indianmoneymod:five_rupee_coin",
+    "count": 1
+  }
+}

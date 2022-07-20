@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "indianmoneymod:items/1_rupee"
+  }
+}

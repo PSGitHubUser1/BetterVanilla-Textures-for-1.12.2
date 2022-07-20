@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "indianmoneymod:twenty_rupee_coin"
+    },
+    {
+      "item": "indianmoneymod:twenty_rupee_coin"
+    },
+    {
+      "item": "indianmoneymod:twenty_rupee_coin"
+    },
+    {
+      "item": "indianmoneymod:twenty_rupee_coin"
+    },
+    {
+      "item": "indianmoneymod:twenty_rupee_coin"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "result": {
+    "item": "indianmoneymod:hundred_rupee_note",
+    "count": 1
+  }
+}
